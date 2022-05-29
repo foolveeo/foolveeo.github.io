@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+
 Text can be **boldo**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](https://youtu.be/rQT-HOyav-0).
