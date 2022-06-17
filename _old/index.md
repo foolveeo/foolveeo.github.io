@@ -31,6 +31,18 @@ var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
 }
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJVCBXTMMS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NJVCBXTMMS');
+</script>
+
 ```
 
 ```ruby
