@@ -6,6 +6,21 @@
 -->
 <html>
 	<head>
+		<style>
+			.pdf-container {
+			  position: relative;
+			  width: 100%;
+			  padding-top: 150%; /* Adjust this value to set the aspect ratio (height/width) */
+			}
+		  
+			.pdf-container embed {
+			  position: absolute;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;
+			}
+		  </style>
 		<title>Fulvio Bertolini - Curriculum</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -59,9 +74,9 @@
 							<section class="post">
 								<header class="major">
 									<h3>Curriculum Vitae</h3>
-								</header>
-								
-								<span class="image fit"><embed src="assets/Fulvio_Bertolini-Curriculum_Vitae.pdf" type="application/pdf" style="width: 100%; height: 100vh;" /></span>
+								</header><div class="pdf-container">
+									<embed src="assets/Fulvio_Bertolini-Curriculum_Vitae.pdf" type="application/pdf" />
+								  </div>
 							</section>
 					</div>
 
